@@ -1,10 +1,21 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+    <router-link to="/Edit">Edit</router-link>
+  
   <router-view/>
+  </div>
 </template>
+
+<script>
+// Importamos componentes
+
+// llamamos al los componentes
+export default {
+  name: "App"
+};
+
+</script>
 
 <style>
 #app {
