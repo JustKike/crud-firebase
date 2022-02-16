@@ -28,6 +28,7 @@ import { useRoute, useRouter } from "vue-router";
 import { db } from "@/firebase";
 import { doc, getDoc, updateDoc } from "firebase/firestore/lite";
 import router from "../router/index";
+import { onSnapshot } from "firebase/firestore";
 
 export default {
   name: "Edit",
