@@ -50,6 +50,7 @@ export default {
       let usuario = docSnap.data();
       usuarios.push(usuario);
       agregar(usuarios);
+      console.log(userId.value);
     });
     function agregar(usuarios) {
       usuarios.forEach((item) => {

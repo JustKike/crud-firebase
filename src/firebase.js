@@ -1,4 +1,3 @@
-import { ref, onUnmounted } from 'vue';
 import "firebase/firestore";
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs, addDoc, doc, updateDoc } from 'firebase/firestore/lite';
